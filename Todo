@@ -1,0 +1,53 @@
+Pages we layout so far:
+	Log-in page
+	Landing page
+	New Form Page                           [DONE]
+	Pending:                                [ON PROGRESS - ZACH]
+		Quotation Page
+			Preview Quotation Page
+		Sales Order Page
+			Preview Sales Order Page
+		Invoice Printing Page
+			Preview Invoice Printing Page
+	Completed
+		Quotation Page
+			Preview Quotation Page
+		Sales Order Page
+			Preview Sales Order Page
+		Invoice Page
+			Preview Invoice Printing Page
+
+
+Pages needed:
+	[FLOOR SALES]
+		Forms
+			1.) Quotations
+			2.) Sales Order
+			3.) For Invoicing
+			4.) Completed Orders
+		Inventory
+			1.) Round Bar
+			2.) Flat Bar
+		Customer
+			� Landing page
+			� Add customer page
+			� View customer page
+		User
+			� Profile Information page
+		
+	[UPPER MANAGEMENT]
+		In addition to the forms na accessible na from the Floor Sales account:
+
+		Forms
+			View, approve, edit, deny versions of:
+			1.) Quotations
+			2.) Sales Order
+			3.) For invoicing 
+
+		Inventory
+			1.) Add inventory page
+
+		User
+			1.) View Users
+			2.) Add User
+			3.) Back up data
