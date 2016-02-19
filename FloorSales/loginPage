@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>give me money pls</title>
+<!-- Latest compiled and minified CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      </button>
+      <a class="navbar-brand" href="#">SADBOYS</a>
+    </div>
+  </div><!-- /.container-fluid -->
+  </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+<div class="row">
+    <div class="col-xs-6 col-md-4"></div>
+    <div class="col-xs-6 col-md-4">
+        <form role="form">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="username" class="form-control" id="username">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+            </div>
+            <a href="forgotpwd">Forgot password?</a><br>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    <div class="col-xs-6 col-md-4"></div>
+</div>    
+</form>
+</div>
+</body>
+</html>
