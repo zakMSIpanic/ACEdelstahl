@@ -9,6 +9,28 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.btn-space{
+  margin-left: 20px;
+  width: 200px;
+  margin-top:60px;
+}
+
+.btn-size{
+  width: 200px;
+}
+
+.form-size
+{
+  margin: 0 auto; 
+  width:200px;
+}
+
+h4
+{
+  text-align: center;
+}
+
 body {
   margin: 0;
 }
