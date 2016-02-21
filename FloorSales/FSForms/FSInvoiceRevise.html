@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>give me money pls</title>
+<title>A.C Edelstahl Froms and Inventory Manager</title>
 <!-- Latest compiled and minified CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
+  <!-- NAV BAR NI HANS -->
+  <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -18,11 +19,12 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">SADBOYS</a>
-    </div
+    </div>
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">        
-      	<li class="dropdown">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forms <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Quotations</a></li>
@@ -52,18 +54,73 @@
           </ul>
         </li>          
  <!--       <li>
-        	<a href="index.html"><span class="glyphicon glyphicon-remove-circle" ></a></span>
+          <a href="index.html"><span class="glyphicon glyphicon-remove-circle" ></a></span>
         </li>-->
       </ul>
-
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-  <div class = "row"><a class="btn btn-default btn-lg btn-space" href="FormsCreation.html">New Form</a></div>
-  <div class = "row"><button type="button" class="btn btn-default btn-lg btn-space ">Pending</button></div>
-  <div class = "row"><button type="button" class="btn btn-default btn-lg btn-space ">Completed</button></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+<!--start of customer page-->
+
+
+<div class = "container-fluid">
+  <div class="container-fluid">
+      <h1><p> Invoice Revise</p></h1>
+      <div class = "row">
+        <table class="table table-striped">
+          <tr>
+            <th> # </th>
+            <th> Customer Name </th>
+            <th> Articles </th>
+            <th> Comments </th>
+            <th> Revise </th>
+            <th> Date Passed </th>
+            <th> Date Responded </th>
+            <th> Salesman </th>
+            <th> Revision request by </th>
+          </tr>
+          
+          <tr>
+            <td> 1 </td>
+            <td> Balinga Machine Shop </td>
+            <td> 
+              <table>
+                <tr> <td> Boerrenberg BE5919 1 pc. 160mm x 60mm </td> </tr>
+                <tr> <td> Something else</td> </tr>
+              </table>
+            </td>
+            <td> <table><tr><td>Testing out if placing the comments in a table within a table would automatically word wrap the comment within the original table where the table is located. I hope it works.</td><tr> </table> </td>
+            <td> <a> Revise Sales Invoice </a> </td>
+            <td> Sept 21, 2015</td>
+            <td> Sept 22, 2015 </td>
+            <td> ACY</td>
+            <td> Ako </td>
+          </tr>
+
+          <tr>
+            <td> 2 </td>
+            <td> Well it would </td>
+            <td> 
+              <table>
+                <tr> <td> seem that it pushes everything </td> </tr>
+                <tr> <td> to a corner until </td> </tr>
+                <tr> <td> there is no space before it word wraps </td> </tr>
+              </table>
+            </td>
+            <td> <table><tr><td> We probably need to add a col-md somewhere here.</td><tr> </table> </td>
+            <td> <a> Revise Sales Invoice </a> </td>
+            <td> But that day</td>
+            <td> is not today </td>
+            <td> ACY</td>
+            <td> Ako </td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+  </div>
 </body>
 </html>
