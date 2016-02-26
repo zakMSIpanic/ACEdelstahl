@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Update Flatbar Inventory</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Upper Management</a>
+    </div
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forms <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Quotations</a></li>
+            <li><a href="#">Sales Orders</a></li>
+            <li><a href="#">For Invoicing</a></li>
+            <li><a href="#">Completed Orders</a></li>
+          </ul>
+        </li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inventory<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Round Bar</a></li>
+            <li><a href="#">Flat Bar</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Backup</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">User Profile</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Log out</a></li>
+          </ul>
+        </li>          
+ <!--       <li>
+          <a href="index.html"><span class="glyphicon glyphicon-remove-circle" ></a></span>
+        </li>-->
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class = "container-fluid">
+    <h2>Update Flatbar Inventory</h2>
+    <br>
+    <div class="row">
+      <div class="col-md-2" style="font-size:17px; text-align: center;"> Quantity  </div>
+      <div class="col-md-2" style="font-size:17px; text-align: center;"> Grade   </div>
+      <div class="col-md-2" style="font-size:17px; text-align: center;"> Barcode </div>
+      <div class="col-md-1" style="font-size:17px; text-align: center;"> Length</div>
+      <div class="col-md-1" style="font-size:17px; text-align: center;"> Width</div>
+      <div class="col-md-1" style="font-size:17px; text-align: center;"> Height</div>
+      <div class="col-md-2" style="font-size:17px; text-align: center;"> Kilograms</div>
+    </div>
+
+    <div class="row">
+      <div class = "col-md-2">
+        <div class="form-group form-size">
+          <input type="text" class="form-control" id="pwd">
+        </div>
+      </div> 
+
+    <div class = "col-md-2">
+     <div class="form-group">
+        <select class="form-control" id="sel1">
+          <option>Aluminun</option>
+          <option>Christian</option>
+          <option>Cristobal</option>
+          <option>4</option>
+        </select>
+      </div>
+    </div>
+
+    <div class = "col-md-2">
+      <div class="form-group form-size">
+        <input type="text" class="form-control" id="pwd">
+      </div>
+    </div> 
+
+
+    <div class = "col-md-1">
+      <div class="form-group form-size">
+        <input type="text" class="form-control" id="pwd" style="width: 90px;">
+      </div>
+    </div> 
+
+    <div class = "col-md-1">
+      <div class="form-group form-size">
+        <input type="text" class="form-control" id="pwd" style="width: 90px;">
+      </div>
+    </div> 
+
+    <div class = "col-md-1">
+      <div class="form-group form-size">
+        <input type="text" class="form-control" id="pwd" style="width: 90px;">
+      </div>
+    </div> 
+
+    <div class = "col-md-2">
+      <div class="form-group form-size">
+        <input type="text" class="form-control" id="pwd">
+      </div>
+    </div> 
+  </div>
+  <br> <br>
+  <div class = "row">  
+    <div class = "col-md-6">
+      <button type="button" class="btn btn-primary pull-right" style="width: 180px;">Add to List</button>
+    </div>
+    <div class = "col-md-6">
+      <button type="button" class="btn btn-primary" style="width: 180px;">Clear Fields</button>
+    </div>
+  </div>
+<!--
+  <div class = "row">
+    <div class="col-md-4" style="font-size:17px; text-align: center;">Price per:</div>
+    <div class="col-md-4" style="font-size:17px; text-align: center;">Discount:</div>
+  </div>
+
+<div class = "row">
+  <div class = "col-md-4">
+      <div class="form-group form-size">
+        <select class="form-control" id="sel1" style="width: 200px;">
+          <option>Kilogram</option>
+          <option>Piece</option>
+        </select>
+      </div>
+  </div>
+
+  <div class = "col-md-4 ">
+    <div class="form-group form-size">
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </div>
+</div>
+<hr>
+-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
